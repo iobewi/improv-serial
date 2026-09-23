@@ -1,5 +1,4 @@
 #![cfg_attr(not(test), no_std)]
-extern crate alloc;
 
 //! Minimal Improv Serial implementation (<https://www.improv-wifi.com/serial/>).
 //!
@@ -7,6 +6,8 @@ extern crate alloc;
 //! on ESP hardware, a serial driver, an async runtime, Wi-Fi, or an application
 //! framework. Callers feed received bytes to [`Parser::feed`] and write the
 //! returned frame bytes using whatever transport they own.
+
+extern crate alloc;
 
 use alloc::string::String;
 use alloc::vec::Vec;
