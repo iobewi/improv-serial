@@ -1,0 +1,13 @@
+[package]
+name = "improv-serial"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+description = "no_std Rust implementation of the Improv serial protocol"
+repository = "https://github.com/iobewi/improv-serial"
+readme = "README.md"
+keywords = ["improv", "wifi", "serial", "embedded", "no-std"]
+categories = ["embedded", "no-std"]
+
+[dependencies]
